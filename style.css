@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+}
+
+h1 {
+  position: relative;
+  left: 30%;
+  font-size: 50px;
+  color: whitesmoke;
+  border-bottom: whitesmoke solid;
+  width: 500px;
+  height: 75px;
+  animation-name: appear;
+  animation-duration: 3s;
+}
+
+@keyframes appear {
+  0% {border-color:rgb(30, 30, 30); width: 0; color:rgb(30, 30, 30);}
+  50% {border-color: whitesmoke; width: 500px; color:rgb(30, 30, 30);}
+  100% {color: whitesmoke;}
+}
+
+p {
+  position: relative;
+  bottom: 75px;
+  padding-right: 75px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+#warning {
+  position: absolute;
+  bottom: 30px;
+  right: 7px;
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+#message {
+  position: absolute;
+  bottom: 270px;
+  right: 60px;
+  font-size: 12px;
+  color: whitesmoke;
+}
+
+#labels {
+  position: absolute;
+  bottom: 15px;
+  right: 470px;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+canvas {
+  position: relative;
+  display: block;
+  left: 34.5%;
+  bottom: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+input {
+  background-color: lightgray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: rgb(30, 30, 30);
+}
+
+button {
+  background-color: rgb(211, 226, 74);
+  width: 300px;
+  height: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(30, 30, 30);
+}
